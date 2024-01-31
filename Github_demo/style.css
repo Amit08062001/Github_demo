@@ -1,0 +1,36 @@
+section{
+    position: relative;
+    height: 465px;
+    
+}
+section::before{
+    content: '' ;
+    position: absolute;
+    inset: 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+
+
+}
+.for{
+    color: black;
+    display: block;
+    padding: 6px 12px;
+}
+.footer{
+    color: rgb(84, 82, 82);
+    text-decoration: none;
+
+    
+}
+.footer:hover{
+   color:blue;
+   text-decoration: underline;
+    
+}
+.fan:hover{
+    text-decoration: underline ;
+    color: black;
+}
